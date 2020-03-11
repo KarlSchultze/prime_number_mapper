@@ -1,0 +1,38 @@
+This is my third attempt at trying to modularize the program.
+
+Attempt 1
+~~~~
+The first attempt consisted of using an input csv format .txt file and outputting a graph.
+I considered the first thousand primes and also the prime less than one million.
+
+Attempt 2
+~~~~
+I then made a second attempt to use a very basic algorithm to calculate prime numbers
+and this calculation method to output a csv fomrat .txt file. The output file could
+was then input into the mapper
+
+Attempt 3
+~~~~
+I have modularized the calculator with OOP principles (lacking documentation), although
+it still uses a very basic recursive algorithm to find the primes; I am unsure of how
+to create a proper sieve. However the mapper now uses the calculator as a class.
+
+
+
+The gist of the mapper.
+
+It takes an inclusive subset of an prime numbers and outputs the distribution of them
+vs. the natural numbers. By inclusive I mean the set at minimum must be [2] and a set 
+like [2,5] would be an invalid input, but [2,3,5] would not.
+
+It also graph also has the line of y=1 drawn on as a line of interest.
+
+If you have time to wait, please enter 7820, the natural number preceding 7819, the 1000th
+prime number.
+
+If you have more time, I would optimize the prime_number_calculator algorithm before entering
+one million, although the graph will run given time if you so choose not to optimize.
+
+
+
+
